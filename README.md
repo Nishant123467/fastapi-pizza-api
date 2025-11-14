@@ -81,7 +81,7 @@ bcrypt (password hashing)
 
 🛠️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/fastapi-pizza-api.git
+
 cd fastapi-pizza-api
 
 2️⃣ Create virtual environment
@@ -92,7 +92,6 @@ venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 
 4️⃣ Configure MySQL in database.py
-DATABASE_URL = "mysql+pymysql://root:password@localhost:3306/pizza_db"
 
 5️⃣ Run the server
 uvicorn main:app --reload
